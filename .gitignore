@@ -1,0 +1,81 @@
+#
+checkpoints/
+dumps/
+LLPS_classify/AutoML_result*/
+LLPS_classify/AutoML_result_*/
+LLPS_classify/AutoML_result_*/
+LLPS_classify/AutoML_result_0608/
+LLPS_classify/AutoML_result_0609/
+LLPS_classify/AutoML_result_0613/
+LLPS_classify/AutoML_result_0613-1/
+LLPS_classify/AutoML_result_07-3/
+LLPS_classify/AutoML_result_07-3-1/
+LLPS_classify/AutoML_result_07-5/
+#
+#依赖目录
+node_modules/
+vendor/
+packages/
+
+# 构建输出
+dist/
+build/
+*.tar.gz
+*.zip
+
+# 环境变量文件
+.env
+.env.local
+.env.production
+
+# 日志文件
+*.log
+log# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.temp
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 缓存目录
+.cache/
+.parcel-cache/
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 特定语言文件
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Java
+*.class
+*.jar
+*.war
+
+# PHP
+vendor/
+
+# 机器学习模型文件
+*.pt
+*.pth
+*.h5
+*.model
+*.ckpt
